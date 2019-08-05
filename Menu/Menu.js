@@ -27,17 +27,27 @@ let menuItems = [
 */
 
 function menuComponent(arr){
-  const div = document.createElement("div.menu");
+  const menu = document.createElement("div");
+  menu.classList.add("menu");
 
-  const ul = document.createElement("ul");
-  div.appendChild(ul);
+  const menuList = document.createElement("ul");
+  menu.appendChild(menuList);
 
   arr.forEach( item => {
-    const li = document.createElement("li");
-    li.textContent = item;
-    ul.appendChild(li);
+    const menuItem = document.createElement("li");
+    menuItem.textContent = item;
+    menuList.appendChild(menuItem);
   })
 
-  const menuButton = document.querySelector("img.menu-button");
+  return menu;
 }
+
+const menuButton = document.querySelector("img.menu-button");
+const menu = menuComponent(menuItems);
+document.querySelector(".header").appendChild(menu);
+
+
+menuButton.addEventListener("click", e => {
+  menu.classList.toggle("menu--open");
+})
 
