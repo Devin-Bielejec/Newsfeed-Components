@@ -139,7 +139,7 @@ function articleComponent(obj) {
   span.textContent = "---------------------";
 
   span.addEventListener("click", item => {
-    const toggledItem = document.querySelector("div.article");
+    const toggledItem = item.target.parentNode;
     toggledItem.classList.toggle("article-open");
   });
   
