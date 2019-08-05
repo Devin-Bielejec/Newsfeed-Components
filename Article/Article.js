@@ -94,6 +94,20 @@ const data = [
     firstParagraph: "Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter ",
     secondParagraph: "Woah another Otter.",
     thirdParagraph: "Are you serious?"
+  },
+  {
+    title: "The big turkey",
+    date: "January 01, 2000",
+    firstParagraph: "GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE ",
+    secondParagraph: "Woah another Turkey.",
+    thirdParagraph: "Are you serious?"
+  },
+  {
+    title: "The Bigger Chicken",
+    date: "November 10, 2018",
+    firstParagraph: "CLUCK CLUCK CLUCK CLUCK CLUCK ",
+    secondParagraph: "Woah another Chicken.",
+    thirdParagraph: "Are you serious?"
   }
 ];
 
