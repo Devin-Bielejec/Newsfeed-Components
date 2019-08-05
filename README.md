@@ -43,18 +43,21 @@ In this project we are going to be building a news feed reader. The goal is to h
   * Open index.html in your browser
 
 ### Part 1: The Articles Component
-* Import `Article.less` from the correct path into index.less (follow the example for `Header.less` if you’re not sure how to write the correct path)
+[X] Import `Article.less` from the correct path into index.less (follow the example for `Header.less` if you’re not sure how to write the correct path)
 ![Import Article](articleImport.JPG)
-* Follow the instructions found in the Articles.js file to complete the JavaScript functionality and add the components to the DOM.
+[X] Follow the instructions found in the Articles.js file to complete the JavaScript functionality and add the components to the DOM.
 ![Article Functionality](articleFunctionality1.JPG, articleFunctionality2.JPG)
+
 ### Part 2: Add Articles
 
-* Now that we have our components built, add a few articles of your own to the data array. Notice how our JavaScript code automatically creates the new articles and adds the styling and functionality we just built to them. This is the power of components. Write the code once and add as many components as you want all while maintaining the functionality we built!
+[X] Now that we have our components built, add a few articles of your own to the data array. Notice how our JavaScript code automatically creates the new articles and adds the styling and functionality we just built to them. This is the power of components. Write the code once and add as many components as you want all while maintaining the functionality we built!
+![Added Articles](addedArticles.JPG)
 
 ### Part 3: The Menu
 
-* Import `Menu.less` from the correct path into index.less (follow the example for `Header.less` if you’re not sure how to write the correct path)
-* Follow the instructions found in the Menu.js file to complete the JavaScript functionality. 
+[X] Import `Menu.less` from the correct path into index.less (follow the example for `Header.less` if you’re not sure how to write the correct path)
+![Import Menu](menuImport.JPG)
+[X] Follow the instructions found in the Menu.js file to complete the JavaScript functionality. 
 
 ### Stretch Goals:
 
