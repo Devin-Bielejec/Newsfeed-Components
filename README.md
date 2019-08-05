@@ -43,9 +43,9 @@ In this project we are going to be building a news feed reader. The goal is to h
   * Open index.html in your browser
 
 ### Part 1: The Articles Component
-[X] Import `Article.less` from the correct path into index.less (follow the example for `Header.less` if you’re not sure how to write the correct path)
+- [X] Import `Article.less` from the correct path into index.less (follow the example for `Header.less` if you’re not sure how to write the correct path)
 ![Import Article](https://github.com/Devin-Bielejec/Newsfeed-Components/blob/Devin-Bielejec/images/articleImport.JPG)
-[X] Follow the instructions found in the Articles.js file to complete the JavaScript functionality and add the components to the DOM.
+- [X] Follow the instructions found in the Articles.js file to complete the JavaScript functionality and add the components to the DOM.
 ![Article Functionality](articleFunctionality1.JPG, articleFunctionality2.JPG)
 
 ### Part 2: Add Articles
@@ -55,9 +55,9 @@ In this project we are going to be building a news feed reader. The goal is to h
 
 ### Part 3: The Menu
 
-[X] Import `Menu.less` from the correct path into index.less (follow the example for `Header.less` if you’re not sure how to write the correct path)
+- [X] Import `Menu.less` from the correct path into index.less (follow the example for `Header.less` if you’re not sure how to write the correct path)
 ![Import Menu](https://github.com/Devin-Bielejec/Newsfeed-Components/blob/Devin-Bielejec/images/menuImport.JPG)
-[X] Follow the instructions found in the Menu.js file to complete the JavaScript functionality. 
+- [X] Follow the instructions found in the Menu.js file to complete the JavaScript functionality. 
 ![Menu Functionality](https://github.com/Devin-Bielejec/Newsfeed-Components/blob/Devin-Bielejec/images/menuFunctionality.JPG)
 ### Stretch Goals:
 
