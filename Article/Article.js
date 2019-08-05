@@ -87,6 +87,13 @@ const data = [
     thirdParagraph: `Hodor hodor - hodor... Hodor hodor hodor hodor. Hodor. Hodor! Hodor hodor, hodor hodor hodor hodor hodor; hodor hodor? Hodor!
           Hodor hodor, HODOR hodor, hodor hodor?! Hodor! Hodor hodor, HODOR hodor, hodor hodor, hodor, hodor hodor. Hodor, hodor.
           Hodor. Hodor, hodor, hodor. Hodor hodor... Hodor hodor hodor?! Hodor, hodor... Hodor hodor HODOR hodor, hodor hodor. Hodor.`
+  },
+  {
+    title: "The Crazy Otter",
+    date: "July 19, 2018",
+    firstParagraph: "Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter ",
+    secondParagraph: "Woah another Otter.",
+    thirdParagraph: "Are you serious?"
   }
 ];
 
