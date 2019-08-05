@@ -127,12 +127,13 @@ function articleComponent(obj) {
   })
   
   const span = document.createElement("span");
-  span.className = "expandButton";
+  span.classList.add("expandButton");
   divParent.appendChild(span);
+  span.textContent = "---------------------";
 
-  span.addEventListener("toggle", item => {
+  span.addEventListener("click", item => {
     const toggledItem = document.querySelector("div.article");
-    toggledItem.toggleAttribute(".article-open");
+    toggledItem.classList.toggle("article-open");
   });
   
   return divParent;
