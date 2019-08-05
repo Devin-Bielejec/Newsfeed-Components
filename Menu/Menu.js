@@ -29,7 +29,7 @@ let menuItems = [
 function menuComponent(arr){
   const div = document.createElement("div.menu");
 
-  const ul = documen.createElement("ul");
+  const ul = document.createElement("ul");
   div.appendChild(ul);
 
   arr.forEach( item => {
@@ -37,4 +37,7 @@ function menuComponent(arr){
     li.textContent = item;
     ul.appendChild(li);
   })
+
+  const menuButton = document.querySelector("img.menu-button");
 }
+
