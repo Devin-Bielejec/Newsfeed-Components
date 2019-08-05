@@ -46,7 +46,8 @@ In this project we are going to be building a news feed reader. The goal is to h
 - [X] Import `Article.less` from the correct path into index.less (follow the example for `Header.less` if you’re not sure how to write the correct path)
 ![Import Article](https://github.com/Devin-Bielejec/Newsfeed-Components/blob/Devin-Bielejec/images/importArticle.JPG)
 - [X] Follow the instructions found in the Articles.js file to complete the JavaScript functionality and add the components to the DOM.
-![Article Functionality](https://github.com/Devin-Bielejec/Newsfeed-Components/blob/Devin-Bielejec/images/articleFunctionality1.JPG)(https://github.com/Devin-Bielejec/Newsfeed-Components/blob/Devin-Bielejec/images/articleFunctionality2.JPG)
+![Article Functionality](https://github.com/Devin-Bielejec/Newsfeed-Components/blob/Devin-Bielejec/images/articleFunctionality1.JPG)
+![Article Functionality#2](https://github.com/Devin-Bielejec/Newsfeed-Components/blob/Devin-Bielejec/images/articleFunctionality2.JPG)
 
 ### Part 2: Add Articles
 
