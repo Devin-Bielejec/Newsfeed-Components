@@ -1,11 +1,3 @@
-Code Review:
-
-
-
-
-
-
-
 # Newsfeed-Components
 
 In this project we are going to be building a news feed reader. The goal is to have a collapsing menu, and expandable news articles. The CSS and some of the HTML is already done for you, you simply need to connect the pieces. After the CSS is connected it is time to move on to building out our components using JavaScript. We will be adding common functionality and styling to build reusable components.
@@ -13,12 +5,20 @@ In this project we are going to be building a news feed reader. The goal is to h
 ### Need to know:
 * CSS (LESS):
   * @import
+  ![How to Less import](https://github.com/Devin-Bielejec/Newsfeed-Components/blob/Devin-Bielejec/images/howToImportLessFiles.JPG)
+  1. @import
+  2. "<pathToFile>"
+  3. "../" denotes the parent directory
 * JavaScript:
   * Creating DOM components with Javascript Functions.
+  ![How to create DOM components]()
 * DOM
   * Element selection
+  ![How to select an element]()
   * Basic DOM manipulation
+  ![How to manipulate the DOM]()
   * Events and event listeners
+  ![How to add event listener]()
 
 ## Set Up The Project With Git
 
