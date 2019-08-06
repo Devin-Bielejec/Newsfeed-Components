@@ -11,7 +11,7 @@ In this project we are going to be building a news feed reader. The goal is to h
   3. "../" denotes the parent directory
 * JavaScript:
   * Creating DOM components with Javascript Functions.
-  ![How to create DOM components with Javascript Functions](https://github.com/Devin-Bielejec/Newsfeed-Components/blob/Devin-Bielejec/images/creatingDOMElementsWithJS.JPG)
+  ![How to create DOM components with Javascript Functions](/images/creatingDOMElementsWithJS.JPG)
   Note: When creating a DOM element, you cannot use emmit abbreviations, such as "div.pink".
 * DOM
   * Element selection
