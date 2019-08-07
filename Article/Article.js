@@ -1,5 +1,7 @@
 /* This is the data we will be using to create our article components */
 /* Look over this data, then proceed to line 91*/
+
+
 const data = [
   {
     title: 'Lambda School Students: "We\'re the best!"',
@@ -85,30 +87,81 @@ const data = [
     thirdParagraph: `Hodor hodor - hodor... Hodor hodor hodor hodor. Hodor. Hodor! Hodor hodor, hodor hodor hodor hodor hodor; hodor hodor? Hodor!
           Hodor hodor, HODOR hodor, hodor hodor?! Hodor! Hodor hodor, HODOR hodor, hodor hodor, hodor, hodor hodor. Hodor, hodor.
           Hodor. Hodor, hodor, hodor. Hodor hodor... Hodor hodor hodor?! Hodor, hodor... Hodor hodor HODOR hodor, hodor hodor. Hodor.`
+  },
+  {
+    title: "The Crazy Otter",
+    date: "July 19, 2018",
+    firstParagraph: "Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter Otter ",
+    secondParagraph: "Woah another Otter.",
+    thirdParagraph: "Are you serious?"
+  },
+  {
+    title: "The big turkey",
+    date: "January 01, 2000",
+    firstParagraph: "GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE GOBBLE ",
+    secondParagraph: "Woah another Turkey.",
+    thirdParagraph: "Are you serious?"
+  },
+  {
+    title: "The Bigger Chicken",
+    date: "November 10, 2018",
+    firstParagraph: "CLUCK CLUCK CLUCK CLUCK CLUCK ",
+    secondParagraph: "Woah another Chicken.",
+    thirdParagraph: "Are you serious?"
   }
 ];
 
 /* Step 1: Create a function that creates a component. You will want your component to look like the template below: 
-  
   <div class="article">
     <h2>{title of the article}</h2>
     <p class="date">{date of the article}</p>
-
     {three separate paragraph elements}
-
     <span class='expandButton'></span>
   </div>
-
   Hint: You will need to use createElement more than once here!
-
   Your function should take either an object as it's one argument, or 5 separate arguments mapping to each peice of the data object above.
-
   Step 2: Add an event listener to the expandButton span. This event listener should toggle the class 'article-open' on the 'article' div.
-
   Step 3: return the entire component.
-
   Step 4: Map over the data, creating a component for each oject and add each component to the DOM as children of the 'articles' div.
-
   Step 5: Add a new article to the array. Make sure it is in the same format as the others. Refresh the page to see the new artible
-
 */
+
+function articleComponent(obj) {
+  const divParent  = document.createElement("div");
+  divParent.className = "article";
+  
+  const heading = document.createElement("h2");
+  heading.textContent = obj.title;
+  divParent.appendChild(heading);
+
+  const par1 = document.createElement("p");
+  par1.className = "date";
+  par1.textContent = obj.date;
+  divParent.appendChild(par1);
+
+  const paragraphs = [obj.firstParagraph, obj.secondParagraph, obj.thirdParagraph];
+
+  paragraphs.forEach( item => {
+    let par = document.createElement("p");
+    par.textContent = item;
+    divParent.appendChild(par);
+  })
+  
+  const span = document.createElement("span");
+  span.classList.add("expandButton");
+  divParent.appendChild(span);
+  span.textContent = "---------------------";
+
+  span.addEventListener("click", item => {
+    const toggledItem = item.target.parentNode;
+    toggledItem.classList.toggle("article-open");
+  });
+  
+  return divParent;
+}
+
+data.map( article => {
+  const articlesDiv = document.querySelector("div.articles");
+  articlesDiv.appendChild(articleComponent(article));
+})
+

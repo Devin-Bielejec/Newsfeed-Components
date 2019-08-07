@@ -5,23 +5,34 @@ In this project we are going to be building a news feed reader. The goal is to h
 ### Need to know:
 * CSS (LESS):
   * @import
+  ![How to Less import](/images/howToImportLessFiles.JPG)
+  1. @import
+  2. "<pathToFile>"
+  3. "../" denotes the parent directory
 * JavaScript:
   * Creating DOM components with Javascript Functions.
+  ![How to create DOM components with Javascript Functions](/images/creatingDOMElementsWithJS.JPG)
+  
+  Note: When creating a DOM element, you cannot use emmit abbreviations, such as "div.pink".
+  Note: You can use relative paths when embedding images in readme files.
 * DOM
   * Element selection
+  ![How to select an element](/images/DOMselectAnElement.JPG)
   * Basic DOM manipulation
+  ![How to manipulate the DOM](/images/DOMManipulateElement.JPG)
   * Events and event listeners
+  ![How to add event listener](/images/addEventListener.JPG)
 
 ## Set Up The Project With Git
 
 **Follow these steps to set up and work on your project:**
 
-* [ ] Create a forked copy of this project.
+* [X] Create a forked copy of this project.
 * [ ] Add your project manager as collaborator on Github.
-* [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-* [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-* [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-* [ ] Push commits: git push origin `<firstName-lastName>`.
+* [X] Clone your OWN version of the repository (Not Lambda's by mistake!).
+* [X] Create a new branch: git checkout -b `<firstName-lastName>`.
+* [X] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+* [X] Push commits: git push origin `<firstName-lastName>`.
 
 **Follow these steps for completing your project.**
 
@@ -35,18 +46,23 @@ In this project we are going to be building a news feed reader. The goal is to h
   * Open index.html in your browser
 
 ### Part 1: The Articles Component
-* Import `Article.less` from the correct path into index.less (follow the example for `Header.less` if you’re not sure how to write the correct path)
-* Follow the instructions found in the Articles.js file to complete the JavaScript functionality and add the components to the DOM.
+- [X] Import `Article.less` from the correct path into index.less (follow the example for `Header.less` if you’re not sure how to write the correct path)
+![Import Article](/images/importArticle.JPG)
+- [X] Follow the instructions found in the Articles.js file to complete the JavaScript functionality and add the components to the DOM.
+![Article Functionality](/images/articleFunctionality1.JPG)
+![Article Functionality#2](/images/articleFunctionality2.JPG)
 
 ### Part 2: Add Articles
 
-* Now that we have our components built, add a few articles of your own to the data array. Notice how our JavaScript code automatically creates the new articles and adds the styling and functionality we just built to them. This is the power of components. Write the code once and add as many components as you want all while maintaining the functionality we built!
+[X] Now that we have our components built, add a few articles of your own to the data array. Notice how our JavaScript code automatically creates the new articles and adds the styling and functionality we just built to them. This is the power of components. Write the code once and add as many components as you want all while maintaining the functionality we built!
+![Added Articles](/images/addedArticles.JPG)
 
 ### Part 3: The Menu
 
-* Import `Menu.less` from the correct path into index.less (follow the example for `Header.less` if you’re not sure how to write the correct path)
-* Follow the instructions found in the Menu.js file to complete the JavaScript functionality. 
-
+- [X] Import `Menu.less` from the correct path into index.less (follow the example for `Header.less` if you’re not sure how to write the correct path)
+![Import Menu](/images/importMenug.JPG)
+- [X] Follow the instructions found in the Menu.js file to complete the JavaScript functionality. 
+![Menu Functionality](/images/menuFunctionality.JPG)
 ### Stretch Goals:
 
 If you complete the main goals of the page let's play around with some cool animation libraries.
